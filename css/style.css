@@ -1,0 +1,85 @@
+.img-fluid {
+    width: 100%;
+    max-height: 500px;
+    position: relative;
+}
+
+.heading-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+}
+
+.headtext {
+    top: 40%;
+}
+
+hr.divide {
+    width: 20%;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+span.skill {
+    text-transform: capitalize;
+    padding: 10px 0;
+    display: block;
+}
+
+.percent {
+    float: right;
+}
+
+.section-text {
+    margin: 0 200px;
+}
+
+.project-detail {
+    opacity: 1;
+}
+
+.detail-options {
+    opacity: 0;
+    transition: transform .2s;
+    position: relative;
+}
+
+.tagline {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.contain:hover .detail-options {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.contain:hover .project-detail {
+    opacity: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .masthead {
+        height: 30vh;
+        min-height: 200px;
+    }
+    .headtext {
+        top: 50%;
+    }
+    .section-text {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section-text {
+        margin: 0 50px;
+    }
+}
