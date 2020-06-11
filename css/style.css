@@ -9,6 +9,7 @@
     top: 30%;
     left: 0;
     right: 0;
+    font-size: calc(100% + 1vw + 1vh);
 }
 
 .headtext {
@@ -63,6 +64,21 @@ span.skill {
 
 .contain:hover .project-detail {
     opacity: 0;
+}
+
+.address {
+    float: left;
+    margin: 0 15px;
+    color: blue;
+    width: 20%;
+}
+
+.primary-color {
+    background-color: olivedrab;
+}
+
+.icon-background {
+    color: white;
 }
 
 @media screen and (max-width: 500px) {
