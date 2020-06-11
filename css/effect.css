@@ -1,0 +1,36 @@
+.project-detail {
+    opacity: 1;
+}
+
+.detail-options {
+    opacity: 0;
+    transition: transform .2s;
+    position: relative;
+}
+
+.tagline {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.details {
+    background-color: white;
+    opacity: 0;
+    transition: transform .3s;
+}
+
+.contain:hover .detail-options {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.contain:hover .project-detail {
+    opacity: 0;
+}
+
+.contain:hover .details {
+    background-color: white;
+    opacity: 1;
+    transform: linear;
+}
