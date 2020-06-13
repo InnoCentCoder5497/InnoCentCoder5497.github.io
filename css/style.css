@@ -73,6 +73,10 @@ span.skill {
     .section-text {
         margin: 0 20px;
     }
+
+    .modal-xs {
+        width: 90vw;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -80,8 +84,8 @@ span.skill {
     .section-text {
         margin: 0 50px;
     }
-}
 
- @media (max-width: @screen-xs-min) {
-  .modal-xs { width: @modal-sm; }
- }
+    .modal-xs {
+        width: 90vw;
+    }
+}
