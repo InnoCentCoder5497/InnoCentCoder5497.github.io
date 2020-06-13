@@ -14,12 +14,14 @@ html {
 
 .tagline {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 40%;
 }
 
 .details {
-    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
     opacity: 0;
     transition: transform .3s;
 }
@@ -34,7 +36,6 @@ html {
 }
 
 .contain:hover .details {
-    background-color: white;
     opacity: 1;
     transform: linear;
 }
