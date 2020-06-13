@@ -81,3 +81,7 @@ span.skill {
         margin: 0 50px;
     }
 }
+
+ @media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
+ }
