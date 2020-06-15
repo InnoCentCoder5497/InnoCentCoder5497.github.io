@@ -2,45 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.project-detail {
-    opacity: 1;
-}
-
-.detail-options {
-    opacity: 0;
-    transition: transform .2s;
-    position: relative;
-}
-
-.tagline {
-    position: absolute;
-    top: 20%;
-    left: 40%;
-}
-
-.details {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    opacity: 0;
-    transition: transform .3s;
-}
-
-.contain:hover .detail-options {
-    opacity: 1;
-    transform: scale(1.5);
-}
-
-.contain:hover .project-detail {
-    opacity: 0;
-}
-
-.contain:hover .details {
-    opacity: 1;
-    transform: linear;
-}
-
-
 .example {
     animation: anim 2s ease-in;
 }
